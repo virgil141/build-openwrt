@@ -24,6 +24,12 @@ echo "DISTRIB_SOURCECODE='official'" >>package/base-files/files/etc/openwrt_rele
 #
 # Add luci-app-amlogic
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+svn co https://github.com/Zxilly/UA2F.git package/UA2F
+svn co https://github.com/CHN-beta/rkp-ipid.git package/rkp-ipid
+svn co https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+svn co https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
+svn co https://github.com/lucikap/luci-app-ua2f.git package/luci-app-ua2f
+
 
 # coolsnowwolf default software package replaced with Lienol related software package
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
